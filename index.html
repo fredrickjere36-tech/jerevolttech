@@ -174,8 +174,6 @@ JereVolt Technologies provides professional electronics repair services in Chita
 <h2>Request a Repair</h2>
 
 <form onsubmit="sendRequest(event)">
-<input type="text" id="name" placeholder="Your Name" required>
-<input type="tel" id="phone" placeholder="Phone Number" required>
 <input type="text" id="device" placeholder="Device Type" required>
 <textarea id="issue" placeholder="Describe the problem" required></textarea>
 <button type="submit">Send Request</button>
@@ -217,11 +215,8 @@ let issue = document.getElementById("issue").value;
 
 let msg =
 `New Repair Request:
-Name: ${name}
-Phone: ${phone}
 Device: ${device}
 Issue: ${issue}
-Location: Chitawira, Blantyre`;
 
 let url = "https://wa.me/265899151971?text=" + encodeURIComponent(msg);
 
