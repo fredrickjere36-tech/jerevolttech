@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: //github.com/fredrickjere36-tech/cm-electronics/sitemap.xml
+Sitemap: https://fredrickjere36-tech.github.io/jerevolttech/sitemap.xml
